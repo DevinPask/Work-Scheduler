@@ -1,21 +1,30 @@
-// GIVEN I am using a daily planner to create a schedule
+//  The current day is displayed at the top of the calendar
+const dateTime = moment().format("MMM Do YYYY");
+$("#date").text(dateTime);
+
+const dateHour = moment().format("h");
+console.log(dateHour);
 
 
-// WHEN I open the planner
-// THEN the current day is displayed at the top of the calendar
+// timeblocks for standard business hours
+$(".edit").on("click", function () {
+    var status = document.getElementById("todoText").isContentEditable;
+    $("#todoText").prop("contenteditable", !status);
+});
 
 
-// WHEN I scroll down
-// THEN I am presented with timeblocks for standard business hours
+// Get value from element on input events
 
 
+// Set some value
 // WHEN I view the timeblocks for that day
 // THEN each timeblock is color coded to indicate whether it is in the past, present, or future
+
+    // Compare row id to current hour and sets color accordingly
 
 
 // WHEN I click into a timeblock
 // THEN I can enter an event
-
 
 // WHEN I click the save button for that timeblock
 // THEN the text for that event is saved in local storage

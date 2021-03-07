@@ -4,6 +4,73 @@
 
 }
 
+h1, h2  {
+    color: white;
+}
+
 .container {
     padding: 20px;
 }
+
+.head {
+    background-color: red;
+    padding: 20px;
+    border-radius: 80px;
+
+}
+
+.time {
+    padding-top: 15px;
+    max-width: 100px;
+    position: relative;
+    text-align: center;
+    border-radius: 10px 0px 0px 30px;
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    
+}
+
+.todo {
+    border-radius: 0px 10px 10px 0px;
+    border-left: 5px solid white;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.col-sm-1 {
+    padding-right: 0px;
+    padding-left: 5px;
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+}
+
+.clear {
+    display: flex;
+    justify-content: center;
+}
+
+.clearButton, .addButton {
+    border: none;
+    border-radius: 70px;
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    padding: 5px 5px 10px 5px;
+    
+}
+
+.addButton {
+    background-color: lightseagreen;
+}
+
+.row {
+    padding-bottom: 5px;
+}
+
