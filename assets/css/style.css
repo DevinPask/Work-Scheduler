@@ -21,7 +21,7 @@ h1, h2  {
 
 .time {
     padding-top: 15px;
-    max-width: 100px;
+    min-width: 100px;
     position: relative;
     text-align: center;
     border-radius: 10px 0px 0px 30px;
@@ -32,6 +32,7 @@ h1, h2  {
 }
 
 .todo {
+    border: none;
     border-radius: 0px 10px 10px 0px;
     border-left: 5px solid white;
     padding: 10px;
@@ -63,14 +64,30 @@ h1, h2  {
     color: white;
     background-color: red;
     padding: 5px 5px 10px 5px;
+    margin: 0px 0px 0px 5px;
     
 }
 
 .addButton {
     background-color: lightseagreen;
+    padding-left: 20opx;
 }
 
 .row {
     padding-bottom: 5px;
+}
+
+.past {
+    background-color: red;
+    color: white;
+}
+.present {
+    background-color: yellow;
+    color: black;
+    font-weight: 700;
+}
+.future {
+    background-color: teal;
+    color:white;
 }
 
